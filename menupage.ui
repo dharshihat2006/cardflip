@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuPage</class>
+ <widget class="QDialog" name="MenuPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="lblWelcome">
+        <property name="text">
+         <string>WELCOME</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblRules">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <italic>true</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnLeaderboard">
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>LEADERBOARD</string>
+        </property>
+        <property name="icon">
+         <iconset theme="QIcon::ThemeIcon::MediaEject"/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnStart">
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>true</bool>
+        </property>
+        <property name="text">
+         <string>start</string>
+        </property>
+        <property name="icon">
+         <iconset theme="QIcon::ThemeIcon::MediaPlaybackStart"/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cbLevel">
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string notr="true">LEVEL</string>
+         </property>
+         <property name="icon">
+          <iconset theme="QIcon::ThemeIcon::FormatJustifyLeft"/>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>EASY</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>NORMAL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>HARD</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnLogout">
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>LOGOUT</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
